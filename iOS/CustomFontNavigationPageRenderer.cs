@@ -7,6 +7,7 @@ using UIKit;
 [assembly: ExportRenderer(typeof (NavigationPage), typeof (CustomFontNavigationPageRenderer))]
 namespace ToolbarCustomFont.iOS
 {
+	// https://blog.xamarin.com/custom-fonts-in-ios/
 	public class CustomFontNavigationPageRenderer : NavigationRenderer
 	{
 		public CustomFontNavigationPageRenderer()
