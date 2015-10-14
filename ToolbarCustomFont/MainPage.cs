@@ -21,8 +21,12 @@ namespace ToolbarCustomFont
 			}));
 
 			ToolbarItems.Add(new ToolbarItem("Test", null, () => {
-
+				Device.BeginInvokeOnMainThread(() => {
+					Title = "\uf001";
+				});
 			}));
+
+			Title = "\uf002";
 		}
 	}
 }

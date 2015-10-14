@@ -16,8 +16,8 @@ namespace ToolbarCustomFont.Droid
 	{
 		static Class ActionMenuItemViewClass = null;
 		static Constructor ActionMenuItemViewConstructor = null;
-		static Typeface typeface = null;
 
+		static Typeface typeface = null;
 		public static Typeface Typeface
 		{
 			get
