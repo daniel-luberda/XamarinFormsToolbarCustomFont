@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolbarCustomFont.iOS", "iO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolbarCustomFont.Droid", "Droid\ToolbarCustomFont.Droid.csproj", "{3A914269-1BED-4177-B24C-E2B132317E36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolbarCustomFont.Droid.AppCompat", "ToolbarCustomFont.Droid.AppCompat\ToolbarCustomFont.Droid.AppCompat.csproj", "{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -41,5 +43,17 @@ Global
 		{D2C2A60D-43E3-4E70-AE6D-24B70C0403C8}.Release|iPhone.Build.0 = Release|iPhone
 		{D2C2A60D-43E3-4E70-AE6D-24B70C0403C8}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{D2C2A60D-43E3-4E70-AE6D-24B70C0403C8}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Release|iPhone.Build.0 = Release|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DAFFA3-16CC-4ECE-ACCB-EFEE0CA5250F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

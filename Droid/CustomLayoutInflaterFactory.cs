@@ -99,14 +99,30 @@ namespace ToolbarCustomFont.Droid
 
 					try
 					{
-						var tv = (TextView)v;
+                        if(v is LinearLayout) {
+                            var ll = (LinearLayout)v;
+                            for(int i = 0; i < ll.ChildCount; i++) {
+                                var button = ll.GetChildAt(i) as Button;
 
-						string title = tv.Text;
+                                if(button != null) {
+                                    var title = button.Text;
 
-						if (!string.IsNullOrEmpty(title) && title.Length == 1)
-						{
-							tv.SetTypeface(Typeface, TypefaceStyle.Normal);
-						}
+                                    if (!string.IsNullOrEmpty(title) && title.Length == 1)
+                                    {
+                                        button.SetTypeface(Typeface, TypefaceStyle.Normal);
+                                    }
+                                }
+                            }
+                        }
+                        else if(v is TextView) {
+                            var tv = (TextView)v;
+                            string title = tv.Text;
+
+                            if (!string.IsNullOrEmpty(title) && title.Length == 1)
+                            {
+                                tv.SetTypeface(Typeface, TypefaceStyle.Normal);
+                            }
+                        }
 					}
 					catch (ClassCastException)
 					{
