@@ -20,13 +20,32 @@ namespace ToolbarCustomFont
 				
 			}));
 
-			ToolbarItems.Add(new ToolbarItem("Test", null, () => {
+			ToolbarItems.Add(new ToolbarItem("Right", null, () => {
 				Device.BeginInvokeOnMainThread(() => {
-					Title = "\uf001";
+					Title = "Right";
 				});
 			}));
 
-			Title = "\uf002";
+            ToolbarItems.Add(new ToolbarItem("First", null, () => {
+                Device.BeginInvokeOnMainThread(() => {
+                    Title = "First";
+                });
+            }, ToolbarItemOrder.Secondary, 0));
+
+            ToolbarItems.Add(new ToolbarItem("Second", null, () => {
+                Device.BeginInvokeOnMainThread(() => {
+                    Title = "Second";
+                });
+            }, ToolbarItemOrder.Secondary, 1));
+
+            ToolbarItems.Add(new ToolbarItem("Third", null, () => {
+                Device.BeginInvokeOnMainThread(() => {
+                    Title = "Third";
+                });
+            }, ToolbarItemOrder.Secondary, 2));
+
+
+            Title = "\uf002";
 		}
 	}
 }
