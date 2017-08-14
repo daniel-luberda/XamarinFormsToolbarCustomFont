@@ -17,7 +17,7 @@ namespace ToolbarCustomFont.iOS
 		{
 		}
 
-		const string customFontName = "HelveticaNeue-Bold";
+		const string customFontName = "fontawesome";
 		nfloat customFontSize = 16;
 
 		public override void ViewWillAppear(bool animated)
